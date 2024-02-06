@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+li {
+  list-style: none;
+  border: 1px solid #ddd;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+
+.answer-card {
+  padding: 1em;
+  border: 1px solid #eee;
+  margin-bottom: 0.5em;
+  border-radius: 4px;
+}
+
+
+form {
+  margin-top: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #105062;
+  color: black;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+
+button:hover {
+  background-color: #4fa3d1;
+}
+.comment-card {
+  padding: 0.5em;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 0.5em;
+}
+
+.comment-form {
+  margin-top: 0.5em;
+}
+
+.likes-container {
+  margin-top: 0.5em;
+}
+
+.like-button {
+  background-color: #61dafb;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+
+.like-button:hover {
+  background-color: #4fa3d1;
+}
